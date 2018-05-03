@@ -8,7 +8,7 @@
 
 - 已在设备上部署Docker并熟悉Docker命令
 - 熟悉Python
-- 已有预训练好的模型文件
+- 已有预训练好的模型文件（本文使用的是ResNet)
 - Azure Data Science Virtual Machine (可选)
 
 ## 在Python中flask编写服务端代码
