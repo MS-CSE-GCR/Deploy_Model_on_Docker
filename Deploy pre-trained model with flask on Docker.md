@@ -9,6 +9,7 @@
 - 已在设备上部署Docker并熟悉Docker命令
 - 熟悉Python
 - 已有预训练好的模型文件
+- Azure Data Science Virtual Machine (可选)
 
 ## 在Python中flask编写服务端代码
 
@@ -155,11 +156,17 @@ sudo docker run -it -p 5000:5000 flask
 
 成功启动后将看到如下输出：
 
-使用Postman向API发送带有图片的POST请求等待结果。
+![](https://github.com/Iamnvincible/DockerAPI/blob/master/imgs/run.PNG?raw=true)
 
-同时能在终端中查看即时命令输出。
+使用Postman向API发送带有图片的POST请求等待结果:
 
+![](https://github.com/Iamnvincible/DockerAPI/blob/master/imgs/post.PNG?raw=true)
 
+同时能在终端中查看即时命令输出:
+
+![](https://github.com/Iamnvincible/DockerAPI/blob/master/imgs/output.PNG?raw=true)
+
+如果不再需要此资源可直接删除对应Docker容器。
 
 
 
