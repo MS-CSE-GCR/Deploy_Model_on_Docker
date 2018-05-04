@@ -11,7 +11,7 @@
 - 已有预训练好的模型文件（本文使用的是ResNet)
 - Azure Data Science Virtual Machine (可选)
 
-## 在Python中flask编写服务端代码
+## 编写flask服务端代码
 
 ```python
 @app.route('/upload', methods=['POST'])
@@ -51,7 +51,7 @@ if __name__ == '__main__':
     app.run(host="0.0.0.0",port=5000)
 ```
 
-以下为完整代码，并将文件命名为`main.py`
+以下为完整代码，将文件命名为`main.py`
 
 ```python
 from flask import Flask
